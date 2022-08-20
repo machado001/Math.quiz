@@ -1,0 +1,18 @@
+#acertou {
+    color: lawngreen;
+}
+
+#errou {
+    color: crimson;
+}
+
+.guide {
+    text-align: left;
+    padding: 30px;
+}
+
+.guide h1,
+.guide button {
+    text-align: center;
+}
+

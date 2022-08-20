@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+body {
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url('../public/mathwallpaper.png');
+  background-size: contain;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: black;
+  transform: scaleX(1.1);
+}

@@ -1,0 +1,30 @@
+.question-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+.question-div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question-div li {
+    margin: 0 10px;
+}
+
+.question-div li:hover {
+    color: rgb(85, 85, 85);
+}
+
+.question-div p {
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+.question-div .choices {
+    font-size: 1.2em;
+
+}
