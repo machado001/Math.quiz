@@ -25,7 +25,8 @@ body {
 }
 
 button {
- 
+ text-decoration: none;
+ border: none;
   padding: 10px;
   margin: 0 10px;
   text-transform: uppercase;

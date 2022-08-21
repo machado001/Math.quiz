@@ -28,13 +28,8 @@
     text-indent: left;
 }
 
-.question-div .question {
-    background-color: aliceblue;
-    z-index: 1;
-
-}
 .question-div .question, .question-div .choices {
-    background-color: aliceblue;
+    background-color: #FFF;
     z-index: 1;
 }
 

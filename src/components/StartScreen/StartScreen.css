@@ -10,4 +10,11 @@
     width: 30%;
     margin: 30px 0;
   }
+
+  @media screen and (max-width:400px) {
+    .start-screen {
+      margin-top: 66px;
+    }
+  }
+  
   

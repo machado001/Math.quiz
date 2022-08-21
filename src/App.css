@@ -1,11 +1,20 @@
 .App {
   text-align: center;
-  background-color: aliceblue;
-  margin: 0 auto;
+  background-color: #FFF;
+  margin: calc(0 auto - 10px);
   border: 3px solid black;
-  width: 440px;
-  height: 330px;
+  width: 400px;
+  min-height: 330px;
   position: relative;
+}
+
+@media screen and (max-width:400px) {
+  .App{
+    width: 100%;
+    min-width: 330px;
+    min-height: 400px;
+
+  }
 }
 
 

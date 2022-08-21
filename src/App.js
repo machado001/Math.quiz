@@ -9,6 +9,28 @@ import Question from './components/Question/Question';
 // hooks
 import { useState } from 'react';
 
+//images
+//start game img (Game.js)
+import heisenberg from "./components/assets/heisenberg.png"
+//end game imgs (End.js)
+import failImg from './components/assets/faustao.png'
+import winImg from './components/assets/winimg.png'
+//required images questions  (Question.js)
+import ball from "./components/assets/img1.png"
+import spongeBob from "./components/assets/img2.png"
+import strawHat from "./components/assets/img7.png"
+import triangle from "./components/assets/img10.png"
+//random images to another questions (Question.js)
+import thinking from "./components/assets/thinking.png"
+import thinking2 from "./components/assets/thinking2.png"
+import thinking3 from "./components/assets/thinking3.png"
+import thinking4 from "./components/assets/thinking4.png"
+import thinking5 from "./components/assets/thinking5.png"
+import thinking6 from "./components/assets/thinking6.png"
+const imgs = [ball, spongeBob, strawHat, triangle]
+const thinkings = [thinking, thinking2, thinking3,thinking4,thinking5,thinking6]
+
+
 function App() {
   const stages = ['start', 'guide', 'game', 'end']
   let [i, setI] = useState(0)
@@ -30,7 +52,7 @@ function App() {
 
   return (
     <div className="App">
-      {gameStage === 'start' && <StartScreen goToGame={goToGame} goToGuide={goToGuide} />}
+      {gameStage === 'start' && <StartScreen goToGame={goToGame} goToGuide={goToGuide} heisenberg={heisenberg} />}
       {gameStage === 'guide' && <GuideScreen returnToStartScreen={returnToStartScreen} />}
       {gameStage === 'game' &&
         <Game>
@@ -39,9 +61,16 @@ function App() {
             setGameStage={setGameStage}
             i={i}
             setI={setI}
+            imgs={imgs}
+            thinkings={thinkings}
+  
           />
         </Game>}
-      {gameStage === 'end' && <End returnToStartScreen={returnToStartScreen} i={i} />}
+      {gameStage === 'end' && <End
+       returnToStartScreen={returnToStartScreen}
+        i={i}
+        failImg={failImg}
+        winImg={winImg} />}
     </div>
   );
 }

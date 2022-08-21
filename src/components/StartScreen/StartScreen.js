@@ -1,15 +1,14 @@
 import './StartScreen.css'
-import heisenberg from "../assets/heisenberg.png"
 
-const StartScreen = ({ goToGame, goToGuide }) => {
+const StartScreen = ({ goToGame, goToGuide, heisenberg }) => {
     return (
         <div className='start-screen'>
             <h1>Math.quiz()</h1>
             <img id='start-img' src={heisenberg} alt="Walter Fucking White referências" />
-           <div>
+            <div>
                 <button onClick={goToGuide}>Guia</button>
                 <button onClick={goToGame} >Iniciar!</button>
-           </div>
+            </div>
         </div>
     )
 }

@@ -3,26 +3,10 @@ import { questions } from '../data/questions'
 import { useState } from 'react'
 import './Question.css'
 
-//images
-//required images questions 
-import ball from "../assets/img1.png"
-import spongeBob from "../assets/img2.png"
-import strawHat from "../assets/img7.png"
-import triangle from "../assets/img10.png"
-//random images to another questions
-import thinking from "../assets/thinking.png"
-import thinking2 from "../assets/thinking2.png"
-import thinking3 from "../assets/thinking3.png"
-import thinking4 from "../assets/thinking4.png"
-import thinking5 from "../assets/thinking5.png"
-import thinking6 from "../assets/thinking6.png"
-
 const alternativas = ['a', 'b', 'c', 'd']
 const stages = ['start', 'guide', 'game', 'end']
-const imgs = [ball, spongeBob, strawHat, triangle]
-const thinkings = [thinking, thinking2, thinking3,thinking4,thinking5,thinking6]
 
-const Question = ({ setGameStage, i, setI }) => {
+const Question = ({ setGameStage, i, setI,thinkings,imgs }) => {
     const [currentQuestion, setCurrentQuestion] = useState(questions[i].q)
     const [currentResponse, setCurrentResponse] = useState(questions[i].r)
     const [currentId, setCurrentId] = useState(questions[i].id)
