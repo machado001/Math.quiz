@@ -28,4 +28,3 @@
 <li>XML: semântica com as tags HTML e XML condicionais;</li>
 </ul>
 
-<h2>Observação: Problemas ao tentar jogar? Não traduza (ou destraduza) a página.</h2>
