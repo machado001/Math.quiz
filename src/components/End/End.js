@@ -15,7 +15,7 @@ const End = ({ returnToStartScreen, i, failImg, winImg }) => {
                     <img src={failImg} alt="Faustao" />
                 </>
             )}
-            <button onClick={returnToStartScreen}>Voltar</button>
+            <button onClick={returnToStartScreen}>Reiniciar</button>
         </div>
     )
 }
