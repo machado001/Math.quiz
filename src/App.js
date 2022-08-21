@@ -4,7 +4,7 @@ import End from './components/End/End';
 import Game from './components/Game/Game';
 import GuideScreen from './components/GuideScreen/GuideScreen';
 import StartScreen from './components/StartScreen/StartScreen';
-import Question from './components/StartScreen/Question/Question';
+import Question from './components/Question/Question';
 
 // hooks
 import { useState } from 'react';

@@ -1,5 +1,5 @@
 import React from 'react'
-import { questions } from '../../data/questions'
+import { questions } from '../data/questions'
 import { useState } from 'react'
 import './Question.css'
 
