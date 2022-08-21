@@ -1,8 +1,12 @@
+
 <h1>Getting Started - Math.quiz()</h1>
 <br>
 <p>Eis meu primeiro app desenvolvido com React: <strong>Math.quiz()</strong>. Ele é inspirado no famoso Gênio Quiz, mas feito totalmente utilizando as ferramentas de React e JS visando apenas colocar em prática os conceitos dessa linguaguem e sua biblioteca. </p>
 <p><a href="https://machado001.github.io/Math.quiz/"><strong><em>Jogue aqui!</em></strong></a></p>
+
+<img width="300px" src="https://user-images.githubusercontent.com/101916850/185784811-939cb213-6876-4706-85af-5741c9ebab5f.PNG">
 <p>Há instruções dentro do próprio app explicando sua mecânica!</p>
+
 
 <h2>Neste código, tu encontrarás:</h2>
 
