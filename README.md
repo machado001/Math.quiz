@@ -28,4 +28,4 @@
 <li>XML: semântica com as tags HTML e XML condicionais;</li>
 </ul>
 
-<h2>Observação: Cuidado ao traduzir a página. Na versão atual, essa ação buga o jogo inteiro.</h2>
+<h2>Observação: Problemas ao tentar jogar? Não traduza (ou destraduza) a página.</h2>
