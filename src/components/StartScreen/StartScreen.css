@@ -1,3 +1,11 @@
+.start-screen {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #start-img {
     width: 30%;
     margin: 30px 0;

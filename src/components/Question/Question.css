@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: inherit;
     flex-wrap: wrap;
+    font-family: 'Titan One', cursive;
+    width: 100%;
+
 }
+
 .question-div ul {
     display: flex;
     flex-wrap: wrap;
@@ -21,10 +24,39 @@
 
 .question-div p {
     font-size: 1.7em;
-    padding: 10px;
+    padding: 5px 4px;
+    text-indent: left;
 }
+
+.question-div .question {
+    background-color: aliceblue;
+    z-index: 1;
+
+}
+.question-div .question, .question-div .choices {
+    background-color: aliceblue;
+    z-index: 1;
+}
+
 
 .question-div .choices {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
     font-size: 1.2em;
+    padding-bottom: 20px;
 
 }
+
+.question-div img {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    height: initial;
+    transform: translate(-50%, -40%);
+    margin: 0px;
+    z-index: 0;
+}
+

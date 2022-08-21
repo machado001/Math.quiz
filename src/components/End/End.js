@@ -8,13 +8,13 @@ const End = ({ returnToStartScreen, i }) => {
         <div className='end'>
             <h1>{i === 13 ? (
                 <>
-                    <h1>Parabéns!</h1>
-                    <img src={winImg} alt="Baby proud" />
+                    <h1 style={{zIndex:'1'}}>Parabéns!</h1>
+                    <img style={{width:'55%',left:'90px', zIndex:'0'}} src={winImg} alt="Baby proud" />
                 </>
             ) : (
                 <>
                     <h1>Erroou!</h1>
-                    <img src={failImg} alt="Faustao" />
+                    <img  src={failImg} alt="Faustao" />
                 </>
             )}</h1>
             <button onClick={returnToStartScreen}>Voltar</button>

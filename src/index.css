@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'Lusitana', serif;
+
 }
 
 ul li {
@@ -21,6 +25,7 @@ body {
 }
 
 button {
+ 
   padding: 10px;
   margin: 0 10px;
   text-transform: uppercase;

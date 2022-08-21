@@ -37,14 +37,14 @@ export const questions = [
     },
     {
         id: 6,
-        q: '2(5+2*8)/3 é igual a:',
+        q: '2(5+2x8)/3 é igual a:',
         r: { certa: '14', erradas: ['37.33', '7', '15'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: false
     },
     {
         id: 7,
-        q: 'A imagem abaixo é composta por quantas figuras geométricas diferentes?',
+        q: 'O chapéu é composto por quantas figuras geométricas diferentes?',
         r: { certa: '3', erradas: ['2', '1', '4'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: true
@@ -58,8 +58,8 @@ export const questions = [
     },
     {
         id: 9,
-        q: 'Quantos poliedros de Platão existem? :',
-        r: { certa: '5', erradas: ['4', '3', '2'] },
+        q: 'Diga quanto é 2x3! ',
+        r: { certa: '12', erradas: ['6', '5', '-6'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: false
     },
@@ -72,7 +72,7 @@ export const questions = [
     },
     {
         id: 11,
-        q: 'Entre as opções, qual NÃO é um poliedro de Platão? :',
+        q: 'Entre as opções, qual NÃO é um poliedro de Platão?',
         r: { certa: 'Diedro', erradas: ['Tetraedro', 'Hexaedro', 'Octaedro'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: false

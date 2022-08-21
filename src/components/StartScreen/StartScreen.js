@@ -1,11 +1,8 @@
 import './StartScreen.css'
-// import GuideScreen from './GuideScreen'
-import { useState } from 'react'
 
 const StartScreen = ({ goToGame, goToGuide }) => {
-
     return (
-        <div>
+        <div className='start-screen'>
             <h1>Math.quiz()</h1>
             <img id='start-img' src="/heisenberg.png" alt="Walter Fucking White referências" />
            <div>
