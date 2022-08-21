@@ -26,7 +26,7 @@ const Question = ({ setGameStage, i, setI,thinkings,imgs }) => {
         if (i === 2) return imgs[1]
         if (i === 7) return imgs[2]
         if (i === 10) return imgs[3]
-        else return thinkings[Math.round(Math.random() * thinkings.length)]
+        else return thinkings[Math.floor(Math.random() * thinkings.length)]
     }
 
     const checkResp = ({ target }) => {

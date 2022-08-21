@@ -9,6 +9,7 @@ const GuideScreen = ({ returnToStartScreen }) => {
       <p> -São 12 perguntas de ensino fundamental e médio;</p>
       <p> -<span id='acertou'>Acertou?</span> vai pra próxima pergunta!<span id='errou'> Errou?</span> Volta tudo! </p>
       <p> -Há perguntas propositalmente difíceis. Não fique frustrado, o jogo quer que você erre mesmo.</p>
+      <p> -Diz a lenda que poucos chegam à tela final...</p>
       <button onClick={returnToStartScreen}>voltar</button>
     </div>
   )
