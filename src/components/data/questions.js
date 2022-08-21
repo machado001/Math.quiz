@@ -23,8 +23,8 @@ export const questions = [
 
     {
         id: 4,
-        q: 'Ângulo de 90 graus é um:',
-        r: { certa: 'angulo reto', erradas: ['angulo agudo ', 'angulo obtuso', 'angulo médio'] },
+        q: 'O ângulo de 90 graus é um ângulo:',
+        r: { certa: 'Reto', erradas: ['Agudo ', 'Obtuso', 'Médio'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: false
     },
@@ -51,7 +51,7 @@ export const questions = [
     },
     {
         id: 8,
-        q: 'A expressão "0.999999..." é o mesmo que:',
+        q: 'O número "0.999999..." é o mesmo que:',
         r: { certa: '1', erradas: ['infinito', '0', '9/100'] },
         img: function () { return `../assets/img${this.id}.png` },
         hasImg: false

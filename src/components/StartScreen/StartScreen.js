@@ -9,6 +9,9 @@ const StartScreen = ({ goToGame, goToGuide, heisenberg }) => {
                 <button onClick={goToGuide}>Guia</button>
                 <button onClick={goToGame} >Iniciar!</button>
             </div>
+            <footer>
+                <span>GitHub: <a target="_blank" rel="noreferrer" href="https://github.com/machado001">machado001</a></span>
+                </footer>
         </div>
     )
 }
