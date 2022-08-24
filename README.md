@@ -29,7 +29,7 @@
 <li>Estilos: condicionais, inline-style,importação de imagens ;</li>
 <li>Props,Children;</li>
 <li>Uso do map e da propriedade key;</li>
-<li>XML: semântica com as tags HTML e XML condicionais;</li>
+<li>JSX: semântica com as tags HTML e JSX condicionais;</li>
 </ul>
 <h5>Obs: Se todas as alternativas da primeira questão estiverem erradas no seu jogo, cheque se a página está sendo traduzida e, se tiver, desabilite. É um bug que não consegui arrumar ainda.</h5>
 
