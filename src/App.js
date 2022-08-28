@@ -5,10 +5,8 @@ import Game from './components/Game/Game';
 import GuideScreen from './components/GuideScreen/GuideScreen';
 import StartScreen from './components/StartScreen/StartScreen';
 import Question from './components/Question/Question';
-
 // hooks
 import { useState } from 'react';
-
 //images
 //start game img (Game.js)
 import heisenberg from "./components/assets/heisenberg.png"
