@@ -1,29 +1,26 @@
 {
   "files": {
     "main.css": "/Math.quiz/static/css/main.9a5a9f35.css",
-    "main.js": "/Math.quiz/static/js/main.a801023b.js",
+    "main.js": "/Math.quiz/static/js/main.99fe568e.js",
     "static/js/787.36cab62d.chunk.js": "/Math.quiz/static/js/787.36cab62d.chunk.js",
     "static/media/mathwallpaper.png": "/Math.quiz/static/media/mathwallpaper.80af165fe9ef2760ca51.png",
-    "static/media/img2.png": "/Math.quiz/static/media/img2.827956989d8d6d74be9d.png",
-    "static/media/thinking6.png": "/Math.quiz/static/media/thinking6.6fbb3a728705ce0c0494.png",
-    "static/media/thinking2.png": "/Math.quiz/static/media/thinking2.b2c7cb57e54c9441cd10.png",
-    "static/media/thinking4.png": "/Math.quiz/static/media/thinking4.0d3e181893f51b92d94b.png",
-    "static/media/winimg.png": "/Math.quiz/static/media/winimg.ad052a3eb2357e94e8bb.png",
-    "static/media/thinking.png": "/Math.quiz/static/media/thinking.9b59ee3dc3be96b36adb.png",
-    "static/media/faustao.png": "/Math.quiz/static/media/faustao.7254168714265323789a.png",
-    "static/media/img7.png": "/Math.quiz/static/media/img7.cc3386e18a43108dc337.png",
-    "static/media/thinking3.png": "/Math.quiz/static/media/thinking3.f281244822b0c14d2078.png",
-    "static/media/heisenberg.png": "/Math.quiz/static/media/heisenberg.b998dd7bc819ead19220.png",
-    "static/media/img1.png": "/Math.quiz/static/media/img1.ccabf435ebf352369d5c.png",
-    "static/media/img10.png": "/Math.quiz/static/media/img10.300d10c7f549498e447d.png",
-    "static/media/thinking5.png": "/Math.quiz/static/media/thinking5.95791fbe2e9f10af26a7.png",
+    "static/media/thinking6.png": "/Math.quiz/static/media/thinking6.c9395c5de7c30d864862.png",
+    "static/media/winimg.png": "/Math.quiz/static/media/winimg.df9a29933dc24a7c6ad4.png",
+    "static/media/img2.png": "/Math.quiz/static/media/img2.d2791473de8609190035.png",
+    "static/media/faustao.png": "/Math.quiz/static/media/faustao.b34d03dcecbcc14a9b00.png",
+    "static/media/thinking4.png": "/Math.quiz/static/media/thinking4.b84b69c5771981b9146f.png",
+    "static/media/thinking2.png": "/Math.quiz/static/media/thinking2.c8390719267d95ec6169.png",
+    "static/media/thinking.png": "/Math.quiz/static/media/thinking.f3679f2cc8083b4cb093.png",
+    "static/media/img7.png": "/Math.quiz/static/media/img7.44ba150948bb3b49e5a0.png",
+    "static/media/img1.png": "/Math.quiz/static/media/img1.285d5dc46a96f6ea4c3d.png",
+    "static/media/thinking3.png": "/Math.quiz/static/media/thinking3.ad163e31f32592c9f066.png",
     "index.html": "/Math.quiz/index.html",
     "main.9a5a9f35.css.map": "/Math.quiz/static/css/main.9a5a9f35.css.map",
-    "main.a801023b.js.map": "/Math.quiz/static/js/main.a801023b.js.map",
+    "main.99fe568e.js.map": "/Math.quiz/static/js/main.99fe568e.js.map",
     "787.36cab62d.chunk.js.map": "/Math.quiz/static/js/787.36cab62d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5a9f35.css",
-    "static/js/main.a801023b.js"
+    "static/js/main.99fe568e.js"
   ]
 }
