@@ -11,22 +11,22 @@ import { useState } from 'react';
 
 //images
 //start game img (Game.js)
-import heisenberg from "./components/assets/heisenberg.png"
+import heisenberg from "./components/assets/compressed-imgs/heisenberg.png"
 //end game imgs (End.js)
-import failImg from './components/assets/faustao.png'
-import winImg from './components/assets/winimg.png'
+import failImg from './components/assets/compressed-imgs/faustao.png'
+import winImg from './components/assets/compressed-imgs/winimg.png'
 //required images questions  (Question.js)
-import ball from "./components/assets/img1.png"
-import spongeBob from "./components/assets/img2.png"
-import strawHat from "./components/assets/img7.png"
-import triangle from "./components/assets/img10.png"
+import ball from "./components/assets/compressed-imgs/img1.png"
+import spongeBob from "./components/assets/compressed-imgs/img2.png"
+import strawHat from "./components/assets/compressed-imgs/img7.png"
+import triangle from "./components/assets/compressed-imgs/img10.png"
 //random images to another questions (Question.js)
-import thinking from "./components/assets/thinking.png"
-import thinking2 from "./components/assets/thinking2.png"
-import thinking3 from "./components/assets/thinking3.png"
-import thinking4 from "./components/assets/thinking4.png"
-import thinking5 from "./components/assets/thinking5.png"
-import thinking6 from "./components/assets/thinking6.png"
+import thinking from "./components/assets/compressed-imgs/thinking.png"
+import thinking2 from "./components/assets/compressed-imgs/thinking2.png"
+import thinking3 from "./components/assets/compressed-imgs/thinking3.png"
+import thinking4 from "./components/assets/compressed-imgs/thinking4.png"
+import thinking5 from "./components/assets/compressed-imgs/thinking5.png"
+import thinking6 from "./components/assets/compressed-imgs/thinking6.png"
 const imgs = [ball, spongeBob, strawHat, triangle]
 const thinkings = [thinking, thinking2, thinking3,thinking4,thinking5,thinking6]
 
